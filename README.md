@@ -23,7 +23,7 @@ You can execute these functionalities by running:
 
 - **`push`**: To push changes to GitHub.
   ```bash
-  make push
+  make push message="your_commit_info"
   ```
 
 Depending on your Linux distribution, you may need to install `make` to use this feature.
@@ -76,6 +76,16 @@ To run the project, ensure you have a `.env` file in the root directory of the p
 ```env
 DISCORD_TOKEN='your_discord_token_here'
 ```
+
+### Step 5: Configure Your IDE
+
+Make sure to configure your virtual environment in your IDE (e.g., Visual Studio Code or your IDE of choice). For Visual Studio Code, follow these steps:
+
+1. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS).
+2. Select `Python: Select Interpreter`.
+3. Choose the interpreter located in `.venv` (e.g., `.venv/bin/python` or `.venv\Scripts\python.exe`).
+
+Refer to your IDE's documentation if you're using a different tool.
 
 ## Contributing
 
